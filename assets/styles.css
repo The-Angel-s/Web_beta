@@ -1,0 +1,74 @@
+
+body{background-color: #DDDDDD;
+  margin: 0;
+  font-family: 'Courier New', Courier, monospace;
+  box-sizing: border-box;
+}
+a{
+  color: green;
+  background-color: transparent;
+  text-decoration: none;
+}
+a:hover {
+  color: #F01F1F;
+  background-color: transparent;
+  text-decoration: none;
+}
+/* THE PROPERTIES OF HEADER IS BELOW */
+/* THE PROPERTIES OF HEADER IS BELOW */
+
+ul {
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+}
+li{
+display: block;
+float: left;
+}
+.header {
+overflow: hidden;
+background-color: #f1f1f1;
+padding: 1vw 1vw;
+}
+.header a {
+float: left;
+color: black;
+text-align: left;
+padding: 12px;
+text-decoration:none;
+font-size: 18px; 
+line-height: 25px;
+border-radius: 4px;
+}
+
+.header a.logo {
+font-size: 25px;
+font-weight: bold;
+}
+
+.header a:hover {
+background-color: #ff000069;
+color: rgb(0, 0, 0);
+}
+
+.header a.active {
+background-color: dodgerblue;
+color: lightcoral;
+}
+
+.header-right {
+  float: right;
+}
+.header-right a:hover{
+  background-color: dodgerblue;
+  color: lightseagreen;
+}
+
+@media screen and (min-width: 550px) {
+
+}
+
+/* THE PROPERTIES OF HEADER IS ABOVE */
+/* THE PROPERTIES OF HEADER IS ABOVE */
